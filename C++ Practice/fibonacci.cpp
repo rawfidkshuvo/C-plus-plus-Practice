@@ -13,7 +13,7 @@ void fibonacci(int times)
         }
         else if (i == 2)
         {
-            cout << ", " << secondNum << ", ";
+            cout << ", " << secondNum;
         }
         else
         {
@@ -21,7 +21,7 @@ void fibonacci(int times)
         firstNum = secondNum;
         secondNum = series;
         
-        cout << series << ", ";
+        cout << ", "<< series;
         }
     }
 }
